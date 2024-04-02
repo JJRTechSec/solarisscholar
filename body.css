@@ -1,0 +1,185 @@
+/* REGISTER */
+
+.container {
+  margin: 100px 40px;
+}
+
+.home-title,
+.reg-para {
+  text-align: center;
+  font-family: var(--font-fam);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-size: var(--font-sz);
+}
+
+.label {
+  margin-top: 18px;
+  margin-bottom: 4px;
+  color: var(--ss-clr);
+  font-size: var(--font-sz);
+  font-family: var(--font-fam);
+}
+
+.input {
+  height: 26px;
+  width: 300px;
+  text-align: center;
+  font-size: var(--font-sz);
+  font-family: var(--font-fam);
+}
+
+.input::placeholder {
+  text-align: center;
+  font-size: var(--font-sz);
+}
+
+.input.active {
+  border-color: var(--ss-clr);
+}
+
+.dob {
+  text-transform: uppercase;
+  font-size: var(--font-sz);
+  font-family: var(--font-fam);
+}
+
+.privacy-policy {
+  font-size: 12px;
+  margin-bottom: -20px;
+  font-family: var(--font-fam);
+}
+
+.register-button {
+  padding: 6px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: var(--ss-clr);
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.register-button:hover {
+  opacity: 0.7;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.register-button:active {
+  background-color: white;
+  color: var(--ss-clr);
+  border: 2px solid black;
+}
+
+/* FAQ */
+.faq-title {
+  font-family: var(--font-fam);
+}
+
+.faq-para {
+  font-family: var(--font-fam);
+  font-size: var(--font-sz);
+  text-align: justify;
+}
+
+.question {
+  color: var(--ss-clr);
+  margin-top: 30px;
+}
+
+.answer {
+  margin-left: 18px;
+  text-align: justify;
+}
+
+.page-link {
+  color: var(--link-clr);
+}
+
+.page-link:active {
+  color: var(--ss-clr);
+}
+
+/* CONTACT */
+.read-faq-first-section {
+  text-align: justify;
+}
+
+.read-faq-para {
+  font-family: var(--font-fam);
+  font-size: var(--font-sz);
+}
+
+.query-box {
+  width: 300px;
+  height: 100px;
+  max-height: 200px;
+}
+
+.contact-send-btn {
+  background-color: var(--ss-clr);
+  color: white;
+  font-size: var(--font-sz);
+  font-family: var(--font-fam);
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  margin-top: 40px;
+  padding: 6px;
+}
+
+.contact-send-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.25s;
+}
+
+.contact-send-btn:active {
+  background-color: var(--link-clr);
+}
+
+/* COMING SOON PAGE */
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming-soon {
+  font-size: 40px;
+  font-family: var(--font-fam);
+  text-align: center;
+}
+
+.coming-soon-para {
+  font-size: var(--font-sz);
+  font-family: var(--font-fam);
+  text-align: center;
+}
+
+.signup-email-btn {
+  padding: 6px;
+  width: 100px;
+  margin-top: 40px;
+  background-color: var(--ss-clr);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.signup-email-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.25s;
+}
+
+.signup-email-btn:active {
+  background-color: var(--link-clr);
+  /*color: var(--ss-clr);*/
+}
