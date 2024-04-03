@@ -90,7 +90,7 @@ body {
   margin-left: -8px;
   margin-bottom: -30px;
   margin-right: -20px;
-  padding: 8px;
+  padding: 20px;
 }
 
 /* FOOTER LEFT */
@@ -107,6 +107,7 @@ body {
   font-size: 14px;
   font-family: var(--font-fam);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .footer-links {
@@ -137,6 +138,7 @@ body {
   font-size: 14px;
   font-family: var(--font-fam);
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .ss-footer {
