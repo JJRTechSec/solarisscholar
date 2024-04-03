@@ -2,7 +2,7 @@
   --ss-clr: rgb(186,13,47);
   --link-clr: rgb(24, 44, 184);
   --head-height: 70px;
-  --head-font-sz: 24px;
+  --head-font-sz: 18px;
   --font-sz: 16px;
   --font-fam: Arial;
 }
@@ -31,6 +31,7 @@
   flex: 1;
   align-items: center;
   height: var(--head-height);
+  margin-right: 20px;
 }
 
 .logo {
@@ -83,7 +84,7 @@ body {
   flex-direction: row;
   background-color: var(--ss-clr);
   color: white;
-  height: 100px;
+  height: 130px;
   margin-top: auto;
   min-width: 100%;
   margin-left: -8px;
