@@ -68,7 +68,7 @@
 
 .link:active,
 .footer-links:active {
-  color: var(--ss-clr);
+  color: white;
 }
 
 .right-section {
