@@ -63,6 +63,12 @@
 .link:hover,
 .footer-links:hover {
   color: var(--link-clr);
+  cursor: pointer;
+}
+
+.link:active,
+.footer-links:active {
+  color: var(--ss-clr);
 }
 
 .right-section {
